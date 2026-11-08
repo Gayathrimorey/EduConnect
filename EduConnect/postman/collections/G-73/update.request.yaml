@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:9988/student/update/1
+method: PUT
+body:
+  type: json
+  content: "  {\r
+
+    \        \"age\": 40,\r
+
+    \        \"fname\": \"Lakshmi\",\r
+
+    \        \"lname\": \"Bai\",\r
+
+    \        \"total_marks\": 100\r
+
+    \    }"
+order: 6000

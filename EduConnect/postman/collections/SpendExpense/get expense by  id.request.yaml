@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3333/expense/getExpId/3
+method: GET
+order: 5000

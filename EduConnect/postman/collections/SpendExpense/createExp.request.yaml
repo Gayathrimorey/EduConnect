@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3333/expense/crExp
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "title": "Medical Expenses",
+        "amount": 1200.00,
+        "category": "Healthcare",
+        "expenseDate": "2026-11-05",
+        "paymentMode": "Debit Card"
+    }
+order: 1000

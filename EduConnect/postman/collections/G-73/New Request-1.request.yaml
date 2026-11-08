@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:9988/student/ss
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"fname\": \"Lalitha\",\r
+
+    \    \"lname\": \"Bai\",\r
+
+    \    \"age\": 14,\r
+
+    \    \"total_marks\": 90.5\r
+
+    }"
+order: 2000
